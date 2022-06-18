@@ -54,6 +54,11 @@
     .about_wrapper .client-info > div {
         justify-content: center;
     } 
+
+    .footer_wrapper .newsletter li{
+        font-size: 1rem;
+        line-height: 2.7rem;
+    }
 }
 
 @media (max-width:575.5px){
@@ -63,5 +68,10 @@
 @media (max-width:390px){
     .banner_wapper .banner-content h2::after{
         left: 34%;
+    }
+
+    .footer_wrapper .newsletter li{
+        font-size: 0.875rem;
+        line-height: 2.5rem;
     }
 }
